@@ -1,0 +1,12 @@
+// import core files
+@import './core/typography';
+
+//import abstract files
+@import './abstracts/variables';
+
+// import components files
+@import './components/commingSoon';
+* {
+  margin: 0;
+  padding: 0;
+}
