@@ -8,6 +8,16 @@
   align-items: center;
   gap: 20px;
 
+  .buildLogo {
+    width: 400px;
+    height: 246px;
+  }
+
+  .donareLogo {
+    width: 417px;
+    height: 133px;
+  }
+
   p {
     font-family: $open-sans;
     font-weight: $semi-bold;

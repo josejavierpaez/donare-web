@@ -6,7 +6,26 @@
 
 // import components files
 @import './components/commingSoon';
+@import './components/footer';
+@import './components/Introduction';
+@import './components/navBar';
+
+
+// import pages files
+@import './pages/about';
+
+// import layout files
+@import './layout/wrapper';
+@import './layout/div-gradient';
+
+// import sections files
+@import './sections/story';
+@import './sections/objective';
 * {
   margin: 0;
   padding: 0;
+}
+
+#root{
+  width: 100vw;
 }
