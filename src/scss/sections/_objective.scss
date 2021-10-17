@@ -1,0 +1,43 @@
+.objectives {
+  display: flex;
+  justify-content: center;
+  .objective-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    .objectives-img {
+      display: flex;
+      justify-content: center;
+      margin-left: 108px;
+      img {
+        width: 410px;
+        height: 350px;
+      }
+    }
+
+    .objectives-paragraph {
+      width: 50%;
+      h2 {
+        font-family: $open-sans;
+        font-weight: $bold;
+        font-size: $title-size;
+        margin-bottom: 16px;
+        color: $black;
+        margin-bottom: 16px;
+        span {
+          color: $purple;
+        }
+      }
+      p {
+        // padding-right: 108px;
+        max-width: 448px;
+        font-family: $open-sans;
+        font-weight: $semi-bold;
+        font-size: $paragraph-size;
+        line-height: 35px;
+        color: $dark-gray;
+      }
+    }
+  }
+}
