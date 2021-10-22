@@ -4,9 +4,13 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    .logo img{
+    .logo img {
       width: 232px;
       height: 74px;
+    }
+
+    .butom {
+      display: none;
     }
 
     .nav-bar {
@@ -34,9 +38,81 @@ header {
           color: $black;
         }
       }
+
       .navs {
-        margin-right: 110px;
+        margin-right: 30px;
       }
     }
   }
+
+  .navResponsive {
+    display: none;
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  header {
+    nav {
+      .logo {
+        img {
+          width: 180px;
+          height: 57px;
+        }
+      }
+      .butom {
+        display: block;
+        #check {
+          display: none;
+        }
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      .nav-bar {
+        display: none;
+      }
+    }
+
+    .navResponsive {
+      height: 100vh;
+      display: block;
+      position: fixed;
+      left: -100%;
+      text-align: center;
+      width: 100%;
+
+      ul {
+        list-style: none;
+        li {
+          text-align: center;
+          padding: 30px 0;
+
+          a {
+            text-decoration: none;
+            font-family: $open-sans;
+            color: $black;
+            font-weight: $bold;
+            font-size: 18px;
+            
+          }
+          .active {
+            color: $blue;
+          }
+        }
+      }
+    }
+    .show {
+      left: 0;
+      background: $white;
+      transition: all .5s;
+    }
+  }
+
+  .fix{
+    position: fixed;
+  
+  }
+}
+

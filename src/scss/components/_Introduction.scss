@@ -33,3 +33,42 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .cont-intro {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    .introduction {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      padding-right: 0px;
+      text-align: justify;
+      h2 {
+        font-family: $open-sans;
+        font-weight: $bold;
+        font-size: $title-size;
+        line-height: $title-line-heigth;
+        color: $green;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      p {
+        font-family: $open-sans;
+        font-weight: $semi-bold;
+        font-size: $p-size;
+        line-height: $p-line-heigth;
+        color: $dark-gray;
+      }
+    }
+    .logo-2 {
+      display: flex;
+      justify-content: center;
+      div img {
+        width: 290px;
+        height: 388px;
+      }
+    }
+  }
+}
