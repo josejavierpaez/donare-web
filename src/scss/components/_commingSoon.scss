@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding: 60px 0;
 
   .buildLogo {
     width: 400px;
@@ -31,14 +32,21 @@
 }
 
 @media screen and (max-width: 500px) {
-  img {
-    width: 300px;
-  }
-  .container h1 {
-    font-size: 40px;
-  }
+  .container {
+    .buildLogo {
+      width: 300px;
+      height: 184px;
+    }
+    .donareLogo {
+      width: 300px;
+      height: 95px;
+    }
+    h1 {
+      font-size: 40px;
+    }
 
-  .container p {
-    font-size: 25px;
+    p {
+      font-size: 25px;
+    }
   }
 }
