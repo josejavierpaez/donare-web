@@ -1,30 +1,25 @@
 import { photoExample } from '../assets/index.js';
 
-import { NavBar } from '../components/NavBar';
-import { Footer } from '../components/Footer';
 import { Introduction } from '../components/Introduction';
 
 export const AboutPage = () => {
   return (
     <>
-      <NavBar />
-
-      <section class='about-us'>
-        <div class='wrapper'>
+      <section className='about-us'>
+        <div className='wrapper'>
           <h1>About us</h1>
 
           <Introduction />
-
         </div>
       </section>
 
-      <section class='div-gradient story'>
-        <div class='wrapper'>
+      <section className='div-gradient story'>
+        <div className='wrapper'>
           <div class='story-content'>
-            <div class='story-img'>
+            <div className='story-img'>
               <img src={photoExample} alt='story' loading='lazy' />
             </div>
-            <div class='story-paragraph'>
+            <div className='story-paragraph'>
               <h2>
                 Our <span>story</span>
               </h2>
@@ -41,9 +36,9 @@ export const AboutPage = () => {
         </div>
       </section>
 
-      <section class='objectives'>
-        <div class='wrapper'>
-          <div className='objective-content'>
+      <section className='objectives'>
+        <div className='wrapper'>
+          <div className='objectives-content'>
             <div class='objectives-img'>
               <img src={photoExample} alt='story' loading='lazy' />
             </div>
@@ -64,8 +59,6 @@ export const AboutPage = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 };
