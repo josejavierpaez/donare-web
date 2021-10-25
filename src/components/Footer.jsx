@@ -12,17 +12,17 @@ import {
 export const Footer = () => {
   return (
     <footer>
-      <div class='wrapper'>
-        <div class='footer-img'>
+      <div className='wrapper'>
+        <div className='footer-img'>
           <img src={footerLogo} alt='' loading='lazy' />
         </div>
 
-        <div class='footer-cont'>
-          <div class='f1'>
-            <div class='icon'>
+        <div className='footer-cont'>
+          <div className='f1'>
+            <div className='icon'>
               <img src={locationIcon} alt='' loading='lazy' />
             </div>
-            <div class='location'>
+            <div className='location'>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur tristique, elit et eleifend finibus, metus diam
@@ -31,26 +31,26 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class='f2'>
-            <div class='number-cont'>
-              <div class='icon'>
+          <div className='f2'>
+            <div className='number-cont'>
+              <div className='icon'>
                 <img src={phoneIcon} alt='' loading='lazy' />
               </div>
-              <div class='number'>
+              <div className='number'>
                 <p>+1-555-032-4367</p>
               </div>
             </div>
-            <div class='mail-cont'>
-              <div class='icon'>
+            <div className='mail-cont'>
+              <div className='icon'>
                 <img src={mailIcon} alt='' loading='lazy' />
               </div>
-              <div class='mail'>
+              <div className='mail'>
                 <p>example@donare.com</p>
               </div>
             </div>
           </div>
 
-          <div class='f3'>
+          <div className='f3'>
             <div>
               <NavLink to='/'>
                 <p>Home</p>
@@ -64,7 +64,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class='f4'>
+          <div className='f4'>
             <div>
               <NavLink to='#'>
                 <img src={facebookIcon} alt='' loading='lazy' />
@@ -83,13 +83,13 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div class='footer-cont-tablet'>
+        <div className='footer-cont-tablet'>
           <div className='container-f1-f2'>
-            <div class='f1'>
-              <div class='icon'>
+            <div className='f1'>
+              <div className='icon'>
                 <img src={locationIcon} alt='' loading='lazy' />
               </div>
-              <div class='location'>
+              <div className='location'>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Curabitur tristique, elit et eleifend finibus, metus diam
@@ -98,20 +98,20 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div class='f2'>
-              <div class='number-cont'>
-                <div class='icon'>
+            <div className='f2'>
+              <div className='number-cont'>
+                <div className='icon'>
                   <img src={phoneIcon} alt='' loading='lazy' />
                 </div>
-                <div class='number'>
+                <div className='number'>
                   <p>+1-555-032-4367</p>
                 </div>
               </div>
-              <div class='mail-cont'>
-                <div class='icon'>
+              <div className='mail-cont'>
+                <div className='icon'>
                   <img src={mailIcon} alt='' loading='lazy' />
                 </div>
-                <div class='mail'>
+                <div className='mail'>
                   <p>example@donare.com</p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export const Footer = () => {
           </div>
 
           <div className='container-f3-f4'>
-            <div class='f3'>
+            <div className='f3'>
               <div>
                 <NavLink to='/'>
                   <p>Home</p>
@@ -133,7 +133,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div class='f4'>
+            <div className='f4'>
               <div>
                 <NavLink to='#'>
                   <img src={facebookIcon} alt='' loading='lazy' />

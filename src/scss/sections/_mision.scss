@@ -1,0 +1,68 @@
+.mision {
+  h2 {
+    font-family: $open-sans;
+    font-weight: $bold;
+    font-size: $title-size;
+    line-height: 35px;
+    color: $black;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .image {
+    margin-bottom: 30px;
+    width: 70%;
+    img {
+      width: 100%;
+    }
+  }
+  .wrapper {
+    .mision-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 180px;
+
+      .mision {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          font-family: $open-sans;
+          font-weight: $bold;
+          font-size: 30px;
+          line-height: 35px;
+          text-align: start;
+          margin: 16px 20px;
+        }
+        p {
+          font-family: $open-sans;
+          font-weight: $semi-bold;
+          font-size: 20px;
+          line-height: 39px;
+          text-align: start;
+          color: #757575;
+          margin: 0 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mision {
+    .image {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper {
+      .mision-container {
+        flex-direction: column;
+        margin-bottom: 25px;
+        .mision {
+            margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}

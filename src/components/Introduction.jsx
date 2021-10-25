@@ -2,8 +2,8 @@ import { presentationLogo } from '../assets/index.js';
 
 export const Introduction = () => {
   return (
-    <div class='cont-intro'>
-      <div class='introduction'>
+    <div className='cont-intro home'>
+      <div className='introduction'>
         <div>
           <h2>Hi, we are Donare!</h2>
           <p>
@@ -16,7 +16,7 @@ export const Introduction = () => {
         </div>
       </div>
 
-      <div class='logo-2'>
+      <div className='logo-2'>
         <div>
           <img src={presentationLogo} alt="Donare's logo" loading='lazy' />
         </div>

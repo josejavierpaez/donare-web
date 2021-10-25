@@ -9,6 +9,12 @@ import photoExample from './img/photoEx.png';
 import twitterIcon from './svg/twitter.svg';
 import footerLogo from './img/footerLogo.png';
 import btnResponsive from './svg/btn-responsive.svg';
+import carrousel1 from './img/carrousel1.png';
+import circles from './svg/circles.svg';
+import pig from './gif/saving.gif';
+import gift from './gif/box.gif';
+import volunteer from './svg/volunteer.svg';
+
 
 export {
   facebookIcon,
@@ -21,5 +27,10 @@ export {
   photoExample,
   twitterIcon,
   footerLogo,
-  btnResponsive
+  btnResponsive,
+  carrousel1,
+  circles,
+  pig,
+  gift,
+  volunteer,
 };
