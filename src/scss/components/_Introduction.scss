@@ -34,6 +34,11 @@
   }
 }
 
+.home {
+  margin-bottom: 150px;
+}
+
+
 @media screen and (max-width: 1000px) {
   .cont-intro {
     display: flex;
@@ -45,6 +50,7 @@
       align-items: center;
       padding-right: 0px;
       text-align: justify;
+      
       h2 {
         font-family: $open-sans;
         font-weight: $bold;
@@ -60,8 +66,10 @@
         font-size: $p-size;
         line-height: $p-line-heigth;
         color: $dark-gray;
+        
       }
     }
+
     .logo-2 {
       display: flex;
       justify-content: center;
@@ -71,4 +79,5 @@
       }
     }
   }
+
 }

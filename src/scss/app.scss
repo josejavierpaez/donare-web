@@ -10,9 +10,9 @@
 @import './components/Introduction';
 @import './components/navBar';
 
-
 // import pages files
 @import './pages/about';
+@import './pages/home';
 
 // import layout files
 @import './layout/wrapper';
@@ -21,11 +21,15 @@
 // import sections files
 @import './sections/story';
 @import './sections/objective';
+@import './sections/mision';
+@import './sections/donations';
+@import './sections/volunteer';
+
 * {
   margin: 0;
   padding: 0;
 }
 
-#root{
+#root {
   width: 100vw;
 }
