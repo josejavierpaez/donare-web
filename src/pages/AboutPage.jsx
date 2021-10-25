@@ -8,14 +8,13 @@ export const AboutPage = () => {
       <section className='about-us'>
         <div className='wrapper'>
           <h1>About us</h1>
-
           <Introduction />
         </div>
       </section>
 
       <section className='div-gradient story'>
         <div className='wrapper'>
-          <div class='story-content'>
+          <div className='story-content'>
             <div className='story-img'>
               <img src={photoExample} alt='story' loading='lazy' />
             </div>
@@ -39,11 +38,11 @@ export const AboutPage = () => {
       <section className='objectives'>
         <div className='wrapper'>
           <div className='objectives-content'>
-            <div class='objectives-img'>
+            <div className='objectives-img'>
               <img src={photoExample} alt='story' loading='lazy' />
             </div>
 
-            <div class='objectives-paragraph'>
+            <div className='objectives-paragraph'>
               <h2>
                 Our <span>objectives</span>
               </h2>

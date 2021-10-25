@@ -5,15 +5,20 @@ export const NavBar = () => {
   const handleChecked = () => {
     const body = document.querySelector('body');
     const check = document.querySelector('.navResponsive');
+    const carrousel = document.querySelector('.carrousel-container');
     check.classList.toggle('show');
     body.classList.toggle('fix');
+    carrousel?.classList?.toggle('show-carrousel');
   };
 
   const handleUncheck = () => {
     const body = document.querySelector('body');
     const check = document.querySelector('.navResponsive');
+    const carrousel = document.querySelector('.carrousel-container');
     check.classList.remove('show');
     body.classList.remove('fix');
+    carrousel?.classList?.remove('show-carrousel');
+
   };
   return (
     <header>
@@ -45,7 +50,7 @@ export const NavBar = () => {
               </NavLink>
             </div>
 
-            <div class='navs-2'>
+            <div className='navs-2'>
               <NavLink exact to='#' className='donate-button'>
                 Donate
               </NavLink>
@@ -60,7 +65,7 @@ export const NavBar = () => {
                 onClick={handleUncheck}
                 exact
                 activeClassName='active'
-                to='/lll'
+                to='/'
               >
                 Home
               </NavLink>
