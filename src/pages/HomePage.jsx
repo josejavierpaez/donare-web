@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import { DataContext } from '../context/constext';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -8,12 +11,12 @@ import SwiperCore, { Navigation } from 'swiper';
 import { carrousel1 } from '../assets';
 import { Introduction } from '../components/Introduction';
 import { circles, pig, gift, volunteer } from '../assets/index';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
 export const HomePage = () => {
-  // install Swiper modules
+  const { homePage } = useContext(DataContext);
   return (
     <>
       <Swiper navigation={true} className='carrousel-container'>
@@ -21,10 +24,10 @@ export const HomePage = () => {
           <img src={carrousel1} alt='carrousel' loading='lazy' />
         </SwiperSlide>
         <SwiperSlide className='swiper-slide'>
-          <img src={carrousel1} alt='carrousel'  loading='lazy' />
+          <img src={carrousel1} alt='carrousel' loading='lazy' />
         </SwiperSlide>
         <SwiperSlide className='swiper-slide'>
-          <img src={carrousel1} alt='carrousel'  loading='lazy' />
+          <img src={carrousel1} alt='carrousel' loading='lazy' />
         </SwiperSlide>
       </Swiper>
 
@@ -40,42 +43,24 @@ export const HomePage = () => {
         <h2>Lorem Ipsum</h2>
 
         <div className='image'>
-          <img src={circles} alt='decoration'  loading='lazy' />
+          <img src={circles} alt='decoration' loading='lazy' />
         </div>
 
         <div className='wrapper'>
           <section className='mision-container'>
             <div className='mision'>
-              <h2>Lorem Ipsum dolor</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu{' '}
-              </p>
+              <h2>{homePage?.mission.title}</h2>
+              <p>{homePage?.mission.description}</p>
             </div>
 
             <div className='mision'>
-              <h2>Lorem Ipsum dolor</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu{' '}
-              </p>
+              <h2>{homePage?.vision.title}</h2>
+              <p>{homePage?.vision.description}</p>
             </div>
 
             <div className='mision'>
-              <h2>Lorem Ipsum dolor</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu{' '}
-              </p>
+              <h2>{homePage?.values.title}</h2>
+              <p>{homePage?.values.description}</p>
             </div>
           </section>
         </div>
@@ -84,29 +69,24 @@ export const HomePage = () => {
       <section className='donations-container'>
         <div className='wrapper'>
           <div className='donations-text'>
-            <h2>Would you like to help?</h2>
+            <h2>{homePage?.donation.title}</h2>
 
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              fermentum dolor sit amet dolor accumsan venenatis. Quisque
-              vulputate, felis et auctor congue, lectus elit condimentum felis,
-              eu semper turpis ipsum eu justo.{' '}
-            </p>
+            <p>{homePage?.donation.description}</p>
           </div>
 
           <section className='donations'>
             <div className='card'>
-              <img src={pig} alt='svg'  loading='lazy' />
-              <h2>Donate with us!</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <Link to='#'>Donate</Link>
+              <img src={pig} alt='svg' loading='lazy' />
+              <h2>{homePage?.moneyCard.title}</h2>
+              <p>{homePage?.moneyCard.description} </p>
+              <Link to='#'>{homePage?.moneyCard.button}</Link>
             </div>
 
             <div className='card'>
-              <img src={gift} alt='svg'  loading='lazy' />
-              <h2>Donate with us!</h2>
+              <img src={gift} alt='svg' loading='lazy' />
+              <h2>{homePage?.boxCard.title}</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <Link to='#'>Donate</Link>
+              <Link to='#'>{homePage?.boxCard.button}</Link>
             </div>
           </section>
         </div>
@@ -116,16 +96,16 @@ export const HomePage = () => {
         <div className='wrapper'>
           <div className='volunteer'>
             <div className='volunteer-text'>
-              <h2>Together we can change lives </h2>
+              <h2>{homePage?.becomeVolunteer.title}</h2>
             </div>
 
             <div className='volunteer-img'>
-              <img src={volunteer} alt='volunteer'  loading='lazy' />
+              <img src={volunteer} alt='volunteer' loading='lazy' />
             </div>
           </div>
 
           <div className='become-volunteer'>
-            <Link to='#'>Become Link volunteer</Link>
+            <Link to='#'>{homePage?.becomeVolunteer.button}</Link>
           </div>
         </div>
       </section>
