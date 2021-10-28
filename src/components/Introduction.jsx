@@ -1,18 +1,15 @@
+import { useContext } from 'react';
+import { DataContext } from '../context/constext';
 import { presentationLogo } from '../assets/index.js';
 
 export const Introduction = () => {
+  const { introduction } = useContext(DataContext);
   return (
     <div className='cont-intro home'>
       <div className='introduction'>
         <div>
-          <h2>Hi, we are Donare!</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu{' '}
-          </p>
+          <h2>{introduction?.title}</h2>
+          <p>{introduction?.description}</p>
         </div>
       </div>
 

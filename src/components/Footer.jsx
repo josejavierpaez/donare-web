@@ -1,4 +1,6 @@
+import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
+import { DataContext } from '../context/constext';
 import {
   facebookIcon,
   instagramIcon,
@@ -10,6 +12,8 @@ import {
 } from '../assets/index.js';
 
 export const Footer = () => {
+  const { footer } = useContext(DataContext);
+  console.log(footer);
   return (
     <footer>
       <div className='wrapper'>
@@ -23,11 +27,7 @@ export const Footer = () => {
               <img src={locationIcon} alt='' loading='lazy' />
             </div>
             <div className='location'>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur tristique, elit et eleifend finibus, metus diam
-                aliquet libero, nec scelerisque arcu metus vel mauris.{' '}
-              </p>
+              <p>{footer?.address}</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export const Footer = () => {
                 <img src={phoneIcon} alt='' loading='lazy' />
               </div>
               <div className='number'>
-                <p>+1-555-032-4367</p>
+                <p>+{footer?.number}</p>
               </div>
             </div>
             <div className='mail-cont'>
@@ -45,7 +45,7 @@ export const Footer = () => {
                 <img src={mailIcon} alt='' loading='lazy' />
               </div>
               <div className='mail'>
-                <p>example@donare.com</p>
+                <p>{footer?.mail}</p>
               </div>
             </div>
           </div>
@@ -53,13 +53,13 @@ export const Footer = () => {
           <div className='f3'>
             <div>
               <NavLink to='/'>
-                <p>Home</p>
+                <p>{footer?.menu.home}</p>
               </NavLink>
               <NavLink to='/about'>
-                <p>About</p>
+                <p>{footer?.menu.about}</p>
               </NavLink>
               <NavLink to='/contact'>
-                <p>Contact</p>
+                <p>{footer?.menu.contact}</p>
               </NavLink>
             </div>
           </div>
