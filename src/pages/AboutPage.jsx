@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { DataContext } from '../context/constext';
-import { photoExample } from '../assets/index.js';
+import { photoStory, photoObjectives } from '../assets/index.js';
 
 import { Introduction } from '../components/Introduction';
 
@@ -20,7 +20,7 @@ export const AboutPage = () => {
         <div className='wrapper'>
           <div className='story-content'>
             <div className='story-img'>
-              <img src={photoExample} alt='story' loading='lazy' />
+              <img src={photoStory} alt='story' loading='lazy' />
             </div>
             <div className='story-paragraph'>
               <h2>
@@ -37,7 +37,7 @@ export const AboutPage = () => {
         <div className='wrapper'>
           <div className='objectives-content'>
             <div className='objectives-img'>
-              <img src={photoExample} alt='story' loading='lazy' />
+              <img src={photoObjectives} alt='story' loading='lazy' />
             </div>
 
             <div className='objectives-paragraph'>
