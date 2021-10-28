@@ -13,6 +13,7 @@
 // import pages files
 @import './pages/about';
 @import './pages/home';
+@import './pages/contact';
 
 // import layout files
 @import './layout/wrapper';
@@ -24,6 +25,7 @@
 @import './sections/mision';
 @import './sections/donations';
 @import './sections/volunteer';
+@import './sections/lenguage-section';
 
 * {
   margin: 0;

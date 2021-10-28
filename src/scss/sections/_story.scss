@@ -12,8 +12,9 @@
       align-content: center;
       margin-right: 108px;
       img {
-        width: 410px;
+        width: 420px;
         height: 350px;
+        border-radius: 10px;
       }
     }
 
@@ -38,6 +39,7 @@
         font-size: $paragraph-size;
         line-height: 35px;
         color: $white;
+        text-align: justify;
       }
     }
   }
@@ -58,7 +60,8 @@
         margin-right: 0px;
         img {
           width: 410px;
-          height: 350px;
+          height: 330px;
+          border-radius: 10px;
         }
       }
 
@@ -97,6 +100,4 @@
     width: 300px;
     height: 255px;
   }
-
-
 }

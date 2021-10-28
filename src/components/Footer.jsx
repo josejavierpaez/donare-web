@@ -13,7 +13,6 @@ import {
 
 export const Footer = () => {
   const { footer } = useContext(DataContext);
-  console.log(footer);
   return (
     <footer>
       <div className='wrapper'>

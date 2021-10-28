@@ -17,17 +17,17 @@ export const homePageDataEn = {
   donation: {
     title: 'Would you like to help?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum dolor sit amet dolor accumsan venenatis. Quisque vulputate, felis et auctor congue, lectus elit condimentum felis, eu semper turpis ipsum eu justo.',
+      'Donare is sustained thanks to voluntary donations from people around the world, every dollar is a help for this incredible cause that will benefit many people. You can contribute by submitting articles or simply use paypal.',
   },
 
   moneyCard: {
     title: 'Donate with us!',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Donate with paypal! Every dollar is very helpful.',
     button: 'Donate',
   },
   boxCard: {
     title: 'Donate with us!',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Do you want to send a help box? Contact us!.',
     button: 'Donate',
   },
   becomeVolunteer: {
@@ -56,22 +56,22 @@ export const homePageDataEs = {
   donation: {
     title: '¿Te gustaría ayudar?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum dolor sit amet dolor accumsan venenatis. Quisque vulputate, felis et auctor congue, lectus elit condimentum felis, eu semper turpis ipsum eu justo.',
+      'Donare se sostiene gracias a las donaciones voluntarias de personas de todo el mundo, cada dólar es una ayuda para esta increíble causa que beneficiará a muchas personas. Puede contribuir enviando artículos o simplemente usando PayPal.',
   },
 
   moneyCard: {
     title: '¡Dona con nosotros!',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: '¡Dona con paypal! Cada dólar es útil.',
     button: 'Donar',
   },
   boxCard: {
     title: '¡Dona con nosotros!',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: '¿Quieres enviar una caja de ayuda? ¡Contáctanos!.',
     button: 'Donar',
   },
   becomeVolunteer: {
     title: 'Juntos podemos cambiar vidas',
-    button: 'Se un voluntario',
+    button: 'Sé un voluntario',
   },
 };
 
@@ -108,7 +108,7 @@ export const footerEn = {
   },
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
-  mail: 'donare@test.com',
+  mail: 'donare@donarefoundation.org',
 };
 
 export const footerEs = {
@@ -119,7 +119,7 @@ export const footerEs = {
   },
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
-  mail: 'donare@test.com',
+  mail: 'donare@donarefoundation.org',
 };
 
 export const aboutPageEn = {
@@ -166,11 +166,16 @@ export const aboutPageEs = {
 
 export const contactPageEn = {
   title: 'Contact Us',
+  description: 'If you want to communicate with us, please write to us',
   question: 'Any question for us?',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
-  mail: 'donare@test.com',
+  mail: 'donare@donarefoundation.org',
   form: {
+    title: {
+      contact: 'Contact',
+      info: 'Information',
+    },
     firstName: 'First Name',
     lastName: 'Last Name',
     mail: 'Mail',
@@ -182,11 +187,16 @@ export const contactPageEn = {
 
 export const contactPageEs = {
   title: 'Contactanos',
-  question: '¿Cualquier pregunta para nosotros?',
+  description: 'Si deseas comunicarte con nosotros, escribenos por favor',
+  question: '¿Alguna pregunta para nosotros?',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
-  mail: 'donare@test.com',
+  mail: 'donare@donarefoundation.org',
   form: {
+    title: {
+      contact: 'Informacion de',
+      info: 'contacto',
+    },
     firstName: 'Nombre',
     lastName: 'Apellido',
     mail: 'Correo',
