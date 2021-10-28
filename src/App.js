@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { DataContext } from './context/constext';
 import { AppRouter } from './AppRouter';
 import { DataFactory } from './data/DataFactory';
+import {flagUs, flagSpain} from './assets/index';
 
 export const App = () => {
   const [lenguage, setLenguage] = useState('en');
@@ -29,8 +30,10 @@ export const App = () => {
   }, [lenguage]);
   return (
     <DataContext.Provider value={dataDonare}>
-      <button onClick={() => changeLenguage('es')}>ES</button>
-      <button onClick={() => changeLenguage('en')}>EN</button>
+      <div className='wrapper lenguage-section'>
+        <button onClick={() => changeLenguage('en')}> <img src={flagUs} loading='lazy' /> </button>
+        <button onClick={() => changeLenguage('es')}> <img src={flagSpain} loading='lazy' /> </button>
+      </div>
       <AppRouter />
     </DataContext.Provider>
   );

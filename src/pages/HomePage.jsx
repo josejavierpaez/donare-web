@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 // import Swiper core and required modules
 import SwiperCore, { Navigation } from 'swiper';
-import { carrousel1 } from '../assets';
+import { carrousel1, carrousel2, carrousel3 } from '../assets';
 import { Introduction } from '../components/Introduction';
 import { circles, pig, gift, volunteer } from '../assets/index';
 import { Link } from 'react-router-dom';
@@ -24,10 +24,10 @@ export const HomePage = () => {
           <img src={carrousel1} alt='carrousel' loading='lazy' />
         </SwiperSlide>
         <SwiperSlide className='swiper-slide'>
-          <img src={carrousel1} alt='carrousel' loading='lazy' />
+          <img src={carrousel2} alt='carrousel' loading='lazy' />
         </SwiperSlide>
         <SwiperSlide className='swiper-slide'>
-          <img src={carrousel1} alt='carrousel' loading='lazy' />
+          <img src={carrousel3} alt='carrousel' loading='lazy' />
         </SwiperSlide>
       </Swiper>
 
@@ -40,8 +40,6 @@ export const HomePage = () => {
       </section>
 
       <section className='mision'>
-        <h2>Lorem Ipsum</h2>
-
         <div className='image'>
           <img src={circles} alt='decoration' loading='lazy' />
         </div>
@@ -85,7 +83,7 @@ export const HomePage = () => {
             <div className='card'>
               <img src={gift} alt='svg' loading='lazy' />
               <h2>{homePage?.boxCard.title}</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <p>{homePage?.boxCard.description}</p>
               <Link to='#'>{homePage?.boxCard.button}</Link>
             </div>
           </section>

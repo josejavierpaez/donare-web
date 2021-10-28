@@ -14,7 +14,12 @@ import circles from './svg/circles.svg';
 import pig from './gif/saving.gif';
 import gift from './gif/box.gif';
 import volunteer from './svg/volunteer.svg';
-
+import flagUs from './svg/flagUs.svg';
+import flagSpain from './svg/flagSpain.svg';
+import photoStory from './img/photoStory.jpg';
+import photoObjectives from './img/photoObjectives.jpg';
+import carrousel2 from './img/carrousel2.jpg';
+import carrousel3 from './img/carrousel3.jpg';
 
 export {
   facebookIcon,
@@ -33,4 +38,10 @@ export {
   pig,
   gift,
   volunteer,
+  flagUs,
+  flagSpain,
+  photoStory,
+  photoObjectives,
+  carrousel2,
+  carrousel3,
 };
