@@ -1,13 +1,17 @@
+import { useContext } from 'react';
+import { DataContext } from '../context/constext';
 import { photoExample } from '../assets/index.js';
 
 import { Introduction } from '../components/Introduction';
 
 export const AboutPage = () => {
+  const { aboutPage } = useContext(DataContext);
+
   return (
     <>
       <section className='about-us'>
         <div className='wrapper'>
-          <h1>About us</h1>
+          <h1>{aboutPage?.title}</h1>
           <Introduction />
         </div>
       </section>
@@ -20,16 +24,10 @@ export const AboutPage = () => {
             </div>
             <div className='story-paragraph'>
               <h2>
-                Our <span>story</span>
+                {aboutPage?.story.title.our}{' '}
+                <span>{aboutPage?.story.title.story}</span>
               </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                interdum, nunc vitae blandit iaculis, odio nisl aliquam nisi,
-                eget dictum neque nulla vel odio. Mauris commodo facilisis mi.
-                Nunc sed suscipit dolor. Vestibulum eros purus, commodo in
-                lectus fermentum, tincidunt lobortis justo. Fusce bibendum sed
-                leo nec ullamcorper.
-              </p>
+              <p>{aboutPage?.story.description}</p>
             </div>
           </div>
         </div>
@@ -44,16 +42,10 @@ export const AboutPage = () => {
 
             <div className='objectives-paragraph'>
               <h2>
-                Our <span>objectives</span>
+                {aboutPage?.objective.title.our}{' '}
+                <span>{aboutPage?.objective.title.objective}</span>
               </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                interdum, nunc vitae blandit iaculis, odio nisl aliquam nisi,
-                eget dictum neque nulla vel odio. Mauris commodo facilisis mi.
-                Nunc sed suscipit dolor. Vestibulum eros purus, commodo in
-                lectus fermentum, tincidunt lobortis justo. Fusce bibendum sed
-                leo nec ullamcorper.
-              </p>
+              <p>{aboutPage?.objective.description}</p>
             </div>
           </div>
         </div>

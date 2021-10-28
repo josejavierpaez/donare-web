@@ -1,7 +1,11 @@
+import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { footerLogo, btnResponsive } from '../assets/index.js';
+import { DataContext } from '../context/constext';
 
 export const NavBar = () => {
+  const { navBar } = useContext(DataContext);
+
   const handleChecked = () => {
     const body = document.querySelector('body');
     const check = document.querySelector('.navResponsive');
@@ -18,7 +22,6 @@ export const NavBar = () => {
     check.classList.remove('show');
     body.classList.remove('fix');
     carrousel?.classList?.remove('show-carrousel');
-
   };
   return (
     <header>
@@ -40,19 +43,19 @@ export const NavBar = () => {
           <div className='nav-bar'>
             <div className='navs'>
               <NavLink exact activeClassName='active' to='/'>
-                Home
+                {navBar?.home}
               </NavLink>
               <NavLink to='/about' activeClassName='active'>
-                About us
+                {navBar?.about}
               </NavLink>
               <NavLink exact to='/contact' activeClassName='active'>
-                Contact
+                {navBar?.contact}
               </NavLink>
             </div>
 
             <div className='navs-2'>
               <NavLink exact to='#' className='donate-button'>
-                Donate
+                {navBar?.button}
               </NavLink>
             </div>
           </div>
@@ -67,7 +70,7 @@ export const NavBar = () => {
                 activeClassName='active'
                 to='/'
               >
-                Home
+                {navBar?.home}
               </NavLink>
             </li>
             <li>
@@ -77,7 +80,7 @@ export const NavBar = () => {
                 to='/about'
                 activeClassName='active'
               >
-                About us
+                {navBar?.about}
               </NavLink>
             </li>
             <li>
@@ -87,7 +90,7 @@ export const NavBar = () => {
                 to='/contact'
                 activeClassName='active'
               >
-                Contact
+                {navBar?.contact}
               </NavLink>
             </li>
           </ul>
