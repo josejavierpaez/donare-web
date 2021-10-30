@@ -1,0 +1,19 @@
+.galery-title {
+  display: flex;
+  justify-content: center;
+  h2 {
+    text-align: center;
+    margin: 60px 0;
+    font-family: $open-sans;
+    font-weight: $bold;
+    font-size: $title-size;
+    line-height: $title-line-heigth;
+    color: $black;
+  }
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

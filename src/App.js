@@ -31,8 +31,8 @@ export const App = () => {
   return (
     <DataContext.Provider value={dataDonare}>
       <div className='wrapper lenguage-section'>
-        <button onClick={() => changeLenguage('en')}> <img src={flagUs} loading='lazy' /> </button>
-        <button onClick={() => changeLenguage('es')}> <img src={flagSpain} loading='lazy' /> </button>
+        <button onClick={() => changeLenguage('en')}> <img src={flagUs} alt='flag us' loading='lazy' /> </button>
+        <button onClick={() => changeLenguage('es')}> <img src={flagSpain} alt='flag spain' loading='lazy' /> </button>
       </div>
       <AppRouter />
     </DataContext.Provider>

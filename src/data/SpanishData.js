@@ -4,7 +4,8 @@ import {
   introductionDataEs,
   footerEs,
   aboutPageEs,
-  contactPageEs
+  contactPageEs,
+  galeryPageEs,
 } from './data';
 
 export class SpanishData {
@@ -15,5 +16,6 @@ export class SpanishData {
     this.navBar = navBarDataEs;
     this.footer = footerEs;
     this.introduction = introductionDataEs;
+    this.galeryPage = galeryPageEs;
   }
 }
