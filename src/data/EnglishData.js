@@ -6,6 +6,7 @@ import {
   aboutPageEn,
   contactPageEn,
   galeryPageEn,
+  formEn,
 } from './data';
 export class EnglishData {
   constructor() {
@@ -16,5 +17,6 @@ export class EnglishData {
     this.footer = footerEn;
     this.introduction = introductionDataEn;
     this.galeryPage = galeryPageEn;
+    this.form = formEn;
   }
 }

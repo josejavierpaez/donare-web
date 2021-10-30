@@ -6,6 +6,7 @@ import {
   aboutPageEs,
   contactPageEs,
   galeryPageEs,
+  formEs,
 } from './data';
 
 export class SpanishData {
@@ -17,5 +18,6 @@ export class SpanishData {
     this.footer = footerEs;
     this.introduction = introductionDataEs;
     this.galeryPage = galeryPageEs;
+    this.form = formEs;
   }
 }
