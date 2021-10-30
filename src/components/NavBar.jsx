@@ -48,6 +48,9 @@ export const NavBar = () => {
               <NavLink to='/about' activeClassName='active'>
                 {navBar?.about}
               </NavLink>
+              <NavLink exact to='/galery' activeClassName='active'>
+                {navBar?.galery}
+              </NavLink>
               <NavLink exact to='/contact' activeClassName='active'>
                 {navBar?.contact}
               </NavLink>
@@ -81,6 +84,16 @@ export const NavBar = () => {
                 activeClassName='active'
               >
                 {navBar?.about}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={handleUncheck}
+                exact
+                to='/galery'
+                activeClassName='active'
+              >
+                {navBar?.galery}
               </NavLink>
             </li>
             <li>

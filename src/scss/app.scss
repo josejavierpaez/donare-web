@@ -9,11 +9,14 @@
 @import './components/footer';
 @import './components/Introduction';
 @import './components/navBar';
+@import './components/cardImage';
+@import './components/Loading';
 
 // import pages files
 @import './pages/about';
 @import './pages/home';
 @import './pages/contact';
+@import './pages/galery';
 
 // import layout files
 @import './layout/wrapper';
