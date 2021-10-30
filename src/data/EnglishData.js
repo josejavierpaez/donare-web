@@ -5,6 +5,7 @@ import {
   footerEn,
   aboutPageEn,
   contactPageEn,
+  galeryPageEn,
 } from './data';
 export class EnglishData {
   constructor() {
@@ -14,5 +15,6 @@ export class EnglishData {
     this.navBar = navBarDataEn;
     this.footer = footerEn;
     this.introduction = introductionDataEn;
+    this.galeryPage = galeryPageEn;
   }
 }

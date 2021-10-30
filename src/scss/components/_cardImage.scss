@@ -1,0 +1,24 @@
+.card-image {
+  width: 410px;
+  height: 350px;
+  margin: 25px 20px;
+
+  img {
+    width: 410px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width:500px) {
+    .card-image {
+        width: 300px;
+        height: 256px;
+        margin: 20px 0;
+        img {
+            width: 300px;
+            height: 256px;
+        }
+    }
+}

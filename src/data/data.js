@@ -80,12 +80,14 @@ export const navBarDataEn = {
   about: 'About us',
   contact: 'Contact',
   button: 'Donate',
+  galery: 'Galery',
 };
 export const navBarDataEs = {
   home: 'Inicio',
   about: 'Sobre nosotros',
   contact: 'Contacto',
   button: 'Donar',
+  galery: 'Galeria',
 };
 
 export const introductionDataEn = {
@@ -104,7 +106,8 @@ export const footerEn = {
   menu: {
     home: 'Home',
     about: 'About',
-    contact: 'Conctact',
+    contact: 'Contact',
+    galery: 'Galery',
   },
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
@@ -116,6 +119,7 @@ export const footerEs = {
     home: 'Inicio',
     about: 'Sobre nosotros',
     contact: 'Contacto',
+    galery: 'Galería',
   },
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
@@ -204,4 +208,12 @@ export const contactPageEs = {
     message: 'Mensaje',
     buttonSubmit: 'Enviar',
   },
+};
+
+export const galeryPageEn = {
+  title: 'Galery',
+};
+
+export const galeryPageEs = {
+  title: 'Galeria',
 };

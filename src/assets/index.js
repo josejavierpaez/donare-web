@@ -20,6 +20,15 @@ import photoStory from './img/photoStory.jpg';
 import photoObjectives from './img/photoObjectives.jpg';
 import carrousel2 from './img/carrousel2.jpg';
 import carrousel3 from './img/carrousel3.jpg';
+import loading from './gif/loading.gif';
+///////////
+import galery1 from './img/galery1.jpg';
+import galery2 from './img/galery2.jpg';
+import galery3 from './img/galery3.jpg';
+import galery4 from './img/galery4.jpg';
+import galery5 from './img/galery5.jpg';
+import galery6 from './img/galery6.jpg';
+import galery7 from './img/galery7.jpg';
 
 export {
   facebookIcon,
@@ -44,4 +53,12 @@ export {
   photoObjectives,
   carrousel2,
   carrousel3,
+  galery1,
+  galery2,
+  galery3,
+  galery4,
+  galery5,
+  galery6,
+  galery7,
+  loading,
 };
