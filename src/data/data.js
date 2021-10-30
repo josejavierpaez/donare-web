@@ -220,6 +220,10 @@ export const formEn = {
       contact: 'Contact',
       info: 'Information',
     },
+    alert: {
+      title: 'Ready',
+      body: 'Your email was sent, thank you for writing to us',
+    },
     firstName: 'First Name',
     lastName: 'Last Name',
     mail: 'Mail',
@@ -238,6 +242,10 @@ export const formEs = {
     title: {
       contact: 'Informacion de',
       info: 'contacto',
+    },
+    alert: {
+      title: 'Listo',
+      body: 'Su correo fue enviado, gracias por escribirnos',
     },
     firstName: 'Nombre',
     lastName: 'Apellido',

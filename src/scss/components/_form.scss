@@ -1,3 +1,7 @@
+.error{
+  color: #F44336;
+  margin-bottom: 10px;
+}
 .contact-card {
   display: flex;
   flex-direction: column;
@@ -48,6 +52,7 @@
   .first-last-name {
     display: flex;
 
+
     div {
       display: flex;
       flex-direction: column;
@@ -60,7 +65,7 @@
         background: none;
         outline: none;
         border-bottom: 1px solid #c4c4c4;
-        margin-bottom: 16px;
+        margin-bottom: 1px;
         margin-right: 20px;
       }
     }
@@ -80,7 +85,7 @@
         background: none;
         outline: none;
         border-bottom: 1px solid #c4c4c4;
-        margin-bottom: 16px;
+        margin-bottom: 1px;
         margin-right: 20px;
       }
     }
@@ -107,7 +112,7 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    a {
+    button {
       padding: 15px 50px;
       text-decoration: none;
       border-radius: 10px;
@@ -117,6 +122,8 @@
       font-size: 18px;
       line-height: 24px;
       color: $white;
+      cursor: pointer;
+      border: none;
     }
   }
 }
@@ -152,6 +159,6 @@
   }
 
   .form {
-    width: 100%;
+    width: 90%;
   }
 }

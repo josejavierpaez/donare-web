@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { FormspreeProvider } from '@formspree/react';
 import { DataContext } from './context/constext';
 import { AppRouter } from './AppRouter';
 import { DataFactory } from './data/DataFactory';
-import {flagUs, flagSpain} from './assets/index';
+import { flagUs, flagSpain } from './assets/index';
 
 export const App = () => {
   const [lenguage, setLenguage] = useState('en');
@@ -30,11 +31,19 @@ export const App = () => {
   }, [lenguage]);
   return (
     <DataContext.Provider value={dataDonare}>
-      <div className='wrapper lenguage-section'>
-        <button onClick={() => changeLenguage('en')}> <img src={flagUs} alt='flag us' loading='lazy' /> </button>
-        <button onClick={() => changeLenguage('es')}> <img src={flagSpain} alt='flag spain' loading='lazy' /> </button>
-      </div>
-      <AppRouter />
+      <FormspreeProvider project='1800646911468764444'>
+        <div className='wrapper lenguage-section'>
+          <button onClick={() => changeLenguage('en')}>
+            {' '}
+            <img src={flagUs} alt='flag us' loading='lazy' />{' '}
+          </button>
+          <button onClick={() => changeLenguage('es')}>
+            {' '}
+            <img src={flagSpain} alt='flag spain' loading='lazy' />{' '}
+          </button>
+        </div>
+        <AppRouter />
+      </FormspreeProvider>
     </DataContext.Provider>
   );
 };
