@@ -1,0 +1,15 @@
+{
+  "forms": {
+    "contactForm": {
+      "name": "Contact Form",
+      "actions": [{ "type": "email", "to": "donare@donarefoundation.org" }],
+      "fields": {
+        "firstName": { "type": "text", "required": true, "min": 1 },
+        "lastName": { "type": "text", "required": true, "min": 1 },
+        "mail": { "type": "email", "required": true, "min": 1 },
+        "phoneNumber": { "type": "numeric", "required": true, "min": 1 },
+        "message": { "type": "text", "required": true, "min": 1 }
+      }
+    }
+  }
+}
