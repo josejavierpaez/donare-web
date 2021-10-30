@@ -2,7 +2,7 @@ export const homePageDataEn = {
   mission: {
     title: 'Mission',
     description:
-      'Our mission is to self-manage resources to support social programs that have the same focus as Donare, joining forces to help improve the living conditions of the most disadvantaged children and families, so that they can have a better quality of life and that your needs do not becomes in  frustrations  in their future',
+      'Our mission is to self-manage resources to support social programs that have the same focus as Donare, joining forces to help improve the living conditions of the most disadvantaged children and families, so that they can have a better quality of life and that your needs do not becomes in  frustrations  in their future.',
   },
   vision: {
     title: 'Vision',
@@ -193,6 +193,44 @@ export const contactPageEs = {
   title: 'Contactanos',
   description: 'Si deseas comunicarte con nosotros, escribenos por favor',
   question: '¿Alguna pregunta para nosotros?',
+  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  number: '(978)-677-8299',
+  mail: 'donare@donarefoundation.org',
+  form: {
+    title: {
+      contact: 'Informacion de',
+      info: 'contacto',
+    },
+    firstName: 'Nombre',
+    lastName: 'Apellido',
+    mail: 'Correo',
+    phone: 'Numero',
+    message: 'Mensaje',
+    buttonSubmit: 'Enviar',
+  },
+};
+
+export const formEn = {
+  description: 'If you want to communicate with us, please write to us',
+  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  number: '(978)-677-8299',
+  mail: 'donare@donarefoundation.org',
+  form: {
+    title: {
+      contact: 'Contact',
+      info: 'Information',
+    },
+    firstName: 'First Name',
+    lastName: 'Last Name',
+    mail: 'Mail',
+    phone: 'Phone',
+    message: 'Message',
+    buttonSubmit: 'Send Message',
+  },
+};
+
+export const formEs = {
+  description: 'Si deseas comunicarte con nosotros, escribenos por favor',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
