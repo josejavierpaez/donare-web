@@ -68,9 +68,9 @@ export const Footer = () => {
 
           <div className='f4'>
             <div>
-              <NavLink to='#'>
+              <a target='_blank' rel='noreferrer' href='https://www.facebook.com/donarefoundation'>
                 <img src={facebookIcon} alt='' loading='lazy' />
-              </NavLink>
+              </a>
             </div>
             <div>
               <NavLink to='#'>
@@ -78,9 +78,9 @@ export const Footer = () => {
               </NavLink>
             </div>
             <div>
-              <NavLink to='#'>
+              <a target='_blank' rel='noreferrer'  href='https://www.instagram.com/donarefoundation/?hl=es'>
                 <img src={instagramIcon} alt='' loading='lazy' />
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>
@@ -136,9 +136,9 @@ export const Footer = () => {
 
             <div className='f4'>
               <div>
-                <NavLink to='#'>
+                <a target='_blank' rel='noreferrer'  href='https://www.facebook.com/donarefoundation'>
                   <img src={facebookIcon} alt='' loading='lazy' />
-                </NavLink>
+                </a>
               </div>
               <div>
                 <NavLink to='#'>
@@ -146,9 +146,9 @@ export const Footer = () => {
                 </NavLink>
               </div>
               <div>
-                <NavLink to='#'>
+                <a target='_blank' rel='noreferrer' href='https://www.instagram.com/donarefoundation/?hl=es'>
                   <img src={instagramIcon} alt='' loading='lazy' />
-                </NavLink>
+                </a>
               </div>
             </div>
           </div>

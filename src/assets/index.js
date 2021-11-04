@@ -10,7 +10,7 @@ import twitterIcon from './svg/twitter.svg';
 import footerLogo from './img/footerLogo.png';
 import btnResponsive from './svg/btn-responsive.svg';
 import carrousel1 from './img/carrousel1.png';
-import circles from './svg/circles.svg';
+import circles from './svg/circles2.svg';
 import pig from './gif/saving.gif';
 import gift from './gif/box.gif';
 import volunteer from './svg/volunteer.svg';
