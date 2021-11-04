@@ -84,7 +84,7 @@ export const HomePage = () => {
               <img src={gift} alt='svg' loading='lazy' />
               <h2>{homePage?.boxCard.title}</h2>
               <p>{homePage?.boxCard.description}</p>
-              <Link to='#'>{homePage?.boxCard.button}</Link>
+              <a target='_blank' rel='noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSelwk_jQ_CAk_EKs71wf0Dov_rK9M_LCxYBDAv_TmHK5TPvQQ/viewform?usp=sf_link'>{homePage?.boxCard.button}</a>
             </div>
           </section>
         </div>
@@ -103,7 +103,7 @@ export const HomePage = () => {
           </div>
 
           <div className='become-volunteer'>
-            <Link to='#'>{homePage?.becomeVolunteer.button}</Link>
+            <a target='_blank' rel='noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSecugGvShKQLXLrEouyFuKS674UPa_eHyPLrwWxFdxMyJuOGA/viewform?usp=sf_link'>{homePage?.becomeVolunteer.button}</a>
           </div>
         </div>
       </section>
