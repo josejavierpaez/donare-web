@@ -58,7 +58,11 @@ export const HomePage = () => {
 
             <div className='mision'>
               <h2>{homePage?.values.title}</h2>
-              <p>{homePage?.values.description}</p>
+              <div className=''>
+              <div>{homePage?.values.description.valueOne}</div>
+              <div>{homePage?.values.description.valueTwo}</div>
+              <div>{homePage?.values.description.valueThree}</div>
+              </div>
             </div>
           </section>
         </div>

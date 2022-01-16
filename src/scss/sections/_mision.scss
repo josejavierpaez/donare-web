@@ -25,6 +25,7 @@
       .mision {
         display: flex;
         flex-direction: column;
+        width: 100%;
         h2 {
           font-family: $open-sans;
           font-weight: $bold;
@@ -43,7 +44,19 @@
           margin: 0 20px;
           text-align: justify;
         }
+
+        div {
+          font-family: $open-sans;
+          font-weight: $semi-bold;
+          font-size: 20px;
+          line-height: 39px;
+          text-align: start;
+          color: #757575;
+          margin: 0 10px;
+        }
       }
+
+
     }
   }
 }
