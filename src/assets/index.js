@@ -29,6 +29,13 @@ import galery4 from './img/galery4.jpg';
 import galery5 from './img/galery5.jpg';
 import galery6 from './img/galery6.jpg';
 import galery7 from './img/galery7.jpg';
+import galery8 from './img/galery8.jpeg';
+import galery9 from './img/galery9.jpeg';
+import galery10 from './img/galery10.jpeg';
+import galery11 from './img/galery11.jpeg';
+import galery12 from './img/galery12.jpeg';
+import galery13 from './img/galery13.jpeg';
+import galery14 from './img/galery14.jpeg';
 
 export {
   facebookIcon,
@@ -60,5 +67,12 @@ export {
   galery5,
   galery6,
   galery7,
+  galery8,
+  galery9,
+  galery10,
+  galery11,
+  galery12,
+  galery13,
+  galery14,
   loading,
 };

@@ -2,22 +2,28 @@ export const homePageDataEn = {
   mission: {
     title: 'Mission',
     description:
-      'Our mission is to self-manage resources to support social programs that have the same focus as Donare, joining forces to help improve the living conditions of the most disadvantaged children and families, so that they can have a better quality of life and that your needs do not becomes in  frustrations  in their future.',
+      'Our mission is to manage resources to support social programs that have the same approach that Donare, in order to contribute to improving the living conditions of children and families underprivileged. With this support, it is sought that they can have a better quality of life and that your current basic needs do not become future frustrations.',
   },
   vision: {
     title: 'Vision',
     description:
-      "Donare's mission is to become a reference organization both for the most disadvantaged families and communities, as well as for local and international organizations, so that they can find in Donare a cause to improve the quality of life of those who most need it.",
+      "Donare's mission is to become a reference organization for both families and disadvantaged communities, as well as for local and international organizations, so who can find in Donare a cause to improve the quality of life of those who they need more.",
   },
   values: {
     title: 'Values',
-    description:
-      '1-Solidarity: Shared responsibility between local and international organizations and with the most disadvantaged people. 2-Transparency: Accountability and access to information from our member donors, the administration and society. 3-Commitment: we work for families in situations of poverty, vulnerable who need a continuous commitment on our part to help with their needs.',
+    description: {
+      valueOne:
+        '1. Solidarity: shared responsibility between local and international organizations and disadvantaged people.',
+      valueTwo:
+        '2. Transparency: accountability and access to information from our donors and members, to the administration and to society.',
+      valueThree:
+        '3. Commitment: we work for families in situations of poverty, vulnerable, who need a continuous commitment from us to help with their needs.',
+    },
   },
   donation: {
     title: 'Would you like to help?',
     description:
-      'Donare is sustained thanks to voluntary donations from people around the world, every dollar is a help for this incredible cause that will benefit many people. You can contribute by submitting articles or simply use paypal.',
+      'Donare is supported by voluntary donations from people around the world. Each dollar is a help for this incredible cause, which will benefit many people. Can contribute to our cause by sending articles or simply using Paypal.',
   },
 
   moneyCard: {
@@ -40,23 +46,29 @@ export const homePageDataEs = {
   mission: {
     title: 'Misión',
     description:
-      'Nuestra misión es autogestionar recursos para apoyar los programas sociales que tengan el mismo enfoque de Donare,uniendo esfuerzos para contribuir a mejorar las condiciones de vida de los niños y familias más desfavorecidas, con el fin de que estos puedan tener una mejor calidad de vida y que sus necesidades no se conviertan en frustraciones en su futuro.',
+      'Nuestra misión es gestionar recursos para apoyar programas sociales que tengan el mismo enfoque que Donare, a fin de contribuir a mejorar las condiciones de vida de niños y familias desfavorecidos. Con este apoyo se procura que ellos puedan tener una mejor calidad de vida y que sus necesidades básicas actuales no se conviertan en frustraciones en el futuro.',
   },
   vision: {
     title: 'Visión',
     description:
-      'La misión de Donare es llegar a ser  una organización de referencia tanto para las familias y comunidades más desfavorecidas,como también para las organizaciones locales e internacionales, de forma tal que puedan encontrar en Donare un causa para mejorar la calidad de vida de aquellos que más lo necesiten. ',
+      'La misión de Donare es llegar a ser una organización de referencia tanto para familias y comunidades desfavorecidas, como para organizaciones locales e internacionales, de modo que puedan encontrar en Donare una causa para mejorar la calidad de vida de aquellos que más necesitan.',
   },
   values: {
     title: 'Valores',
-    description:
-      '1-Solidaridad: Responsabilidad compartida entre organizaciones locales e internacionales y las personas más desfavorecidas. 2-Transparencia:  Rendición de cuentas y acceso a la información de nuestros donantes miembros,a la administración y a la sociedad. 3-Compromiso:  trabajamos para familias  en situaciones de pobreza,vulnerables que necesitan un compromiso continuo de nuestra parte para ayudar con sus necesidades.',
+    description: {
+      valueOne:
+        '1. Solidaridad: responsabilidad compartida entre organizaciones locales e internacionales y personas desfavorecidas.',
+      valueTwo:
+        '2. Transparencia: rendición de cuentas y acceso a la información de nuestros donantes y miembros, a la administración y a la sociedad.',
+      valueThree:
+        '3. Compromiso: trabajamos para familias en situaciones de pobreza, vulnerables, que necesitan un compromiso continuo de nuestra parte para ayudar con sus necesidades.',
+    },
   },
 
   donation: {
     title: '¿Te gustaría ayudar?',
     description:
-      'Donare se sostiene gracias a las donaciones voluntarias de personas de todo el mundo, cada dólar es una ayuda para esta increíble causa que beneficiará a muchas personas. Puede contribuir enviando artículos o simplemente usando PayPal.',
+      'Donare se sostiene gracias a las donaciones voluntarias de personas de todo el mundo. Cada dólar es una ayuda para esta increíble causa, que beneficiará a muchas personas. Puedes contribuir a nuestra causa enviando artículos o simplemente usando Paypal.',
   },
 
   moneyCard: {
@@ -87,19 +99,19 @@ export const navBarDataEs = {
   about: 'Sobre nosotros',
   contact: 'Contacto',
   button: 'Donar',
-  galery: 'Galeria',
+  galery: 'Galería',
 };
 
 export const introductionDataEn = {
-  title: 'Hi, we are Donare!',
+  title: 'Hello. We are Donare.',
   description:
-    '​​Donare is a non-profit foundation that has been dedicated for more than four years to help children and families that lives in extremely poor conditions in the Dominican Republic.  The purpose of Donare is supply the basic needs of nutrition, education and well-being, this with the objective this children’s and families can have a worthy and fair life.',
+    '​​Donare is a Nonprofit foundation dedicated, for more than four years, to supporting children and families in extreme conditions of poverty in the Dominican Republic and Massachusetts. The purpose of Donare is to supply basic and felt needs, related to nutrition, education and health, and that vulnerable children and families can enjoy more dignified and just living conditions.',
 };
 
 export const introductionDataEs = {
-  title: 'Hola, somos Donare!',
+  title: 'Hola. Somos Donare.',
   description:
-    'Donare es una fundación sin ánimo de lucro que se ha dedicado por más de 4 años a ayudar a niños y familias en extremas condiciones de pobreza de la República Dominicana. El propósito de Donare es suplir necesidades básicas en cuanto a nutrición,educación y salud,  esto con el objetivo de que estos niños y familias, puedan tener una vida digna y justa.',
+    'Donare es una fundación sin ánimo de lucro, dedicada, por más de cuatro años, a apoyar a niños y familias en condiciones extremas de pobreza en la República Dominicana y Massachusetts. Donare tiene como propósito suplir necesidades básicas y sentidas, relacionadas con la nutrición, la educación y la salud, y de que niños y familias en estado de vulnerabilidad puedan disfrutar de condiciones de vida más dignas y justas.',
 };
 
 export const footerEn = {
@@ -160,11 +172,11 @@ export const aboutPageEs = {
 
   objective: {
     title: {
-      our: 'Nuestra',
+      our: 'Nuestros',
       objective: 'Objetivos',
     },
     description:
-      'Nuestro objetivo es poder ser el puente de canalización de recursos, para llegar a los países,comunidades, y familias más desfavorecidas, esto con el fin de que puedan tener una vida digna y justa a través de nuestros recursos.',
+      'Nuestro objetivo es poder ser el puente de canalización de recursos, para llegar a los países, comunidades, y familias más desfavorecidas, esto con el fin de que puedan tener una vida digna y justa a través de nuestros recursos.',
   },
 };
 
@@ -190,8 +202,8 @@ export const contactPageEn = {
 };
 
 export const contactPageEs = {
-  title: 'Contactanos',
-  description: 'Si deseas comunicarte con nosotros, escribenos por favor',
+  title: 'Contáctanos',
+  description: 'Si deseas comunicarte con nosotros, escribenos por favor.',
   question: '¿Alguna pregunta para nosotros?',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
@@ -204,14 +216,14 @@ export const contactPageEs = {
     firstName: 'Nombre',
     lastName: 'Apellido',
     mail: 'Correo',
-    phone: 'Numero',
+    phone: 'Número',
     message: 'Mensaje',
     buttonSubmit: 'Enviar',
   },
 };
 
 export const formEn = {
-  description: 'If you want to communicate with us, please write to us',
+  description: 'If you want to communicate with us, please write to us.',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
@@ -234,13 +246,13 @@ export const formEn = {
 };
 
 export const formEs = {
-  description: 'Si deseas comunicarte con nosotros, escribenos por favor',
+  description: 'Si deseas comunicarte con nosotros, escríbenos por favor.',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
   form: {
     title: {
-      contact: 'Informacion de',
+      contact: 'Información de',
       info: 'contacto',
     },
     alert: {
@@ -250,7 +262,7 @@ export const formEs = {
     firstName: 'Nombre',
     lastName: 'Apellido',
     mail: 'Correo',
-    phone: 'Numero',
+    phone: 'Número',
     message: 'Mensaje',
     buttonSubmit: 'Enviar',
   },
@@ -261,5 +273,5 @@ export const galeryPageEn = {
 };
 
 export const galeryPageEs = {
-  title: 'Galeria',
+  title: 'Galería',
 };

@@ -10,6 +10,13 @@ import {
   galery5,
   galery6,
   galery7,
+  galery8,
+  galery9,
+  galery10,
+  galery11,
+  galery12,
+  galery13,
+  galery14,
   carrousel2,
   carrousel3,
   photoStory,
@@ -20,6 +27,34 @@ export const GaleryPage = () => {
   const { galeryPage } = useContext(DataContext);
   const [loading, setLoading] = useState(true);
   const imagesGalery = [
+    {
+      image: galery14,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery13,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery12,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery11,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery10,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery9,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery8,
+      alt: 'Galery Image',
+    },
     {
       image: galery1,
       alt: 'Galery Image',
