@@ -2,12 +2,12 @@ export const homePageDataEn = {
   mission: {
     title: 'Mission',
     description:
-      'Our mission is to manage resources to support social programs that have the same approach that Donare, in order to contribute to improving the living conditions of children and families underprivileged. With this support, it is sought that they can have a better quality of life and that your current basic needs do not become future frustrations.',
+      'Our mission is to manage resources to support social programs that have the same approach as Donare in order to contribute to improving the living conditions of underprivileged children and families. With this support, we believe that they can have a better quality of life.',
   },
   vision: {
     title: 'Vision',
     description:
-      "Donare's mission is to become a reference organization for both families and disadvantaged communities, as well as for local and international organizations, so who can find in Donare a cause to improve the quality of life of those who they need more.",
+      "Donare’s mission is to become a reference organization for families and disadvantaged communities, as well as for local and international organizations, who can use Donare to improve the quality of life of those in need.",
   },
   values: {
     title: 'Values',
@@ -15,25 +15,25 @@ export const homePageDataEn = {
       valueOne:
         '1. Solidarity: shared responsibility between local and international organizations and disadvantaged people.',
       valueTwo:
-        '2. Transparency: accountability and access to information from our donors and members, to the administration and to society.',
+        '2. Transparency: accountability and access to information about our donors and members to the administration and society.',
       valueThree:
-        '3. Commitment: we work for families in situations of poverty, vulnerable, who need a continuous commitment from us to help with their needs.',
+        '3. Commitment: we work for families in poverty who are vulnerable and need continuous commitment from us to help with their needs.',
     },
   },
   donation: {
     title: 'Would you like to help?',
     description:
-      'Donare is supported by voluntary donations from people around the world. Each dollar is a help for this incredible cause, which will benefit many people. Can contribute to our cause by sending articles or simply using Paypal.',
+      'Donare is supported by voluntary donations from people around the world. Every dollar is helpful towards this incredible cause, which will benefit many people. You can contribute to our cause by donating items like clothes and food or simply using PayPal.',
   },
 
   moneyCard: {
-    title: 'Donate with us!',
+    title: 'Donate to us!',
     description: 'Donate with paypal! Every dollar is very helpful.',
     button: 'Donate',
   },
   boxCard: {
-    title: 'Donate with us!',
-    description: 'Do you want to send a help box? Contact us!.',
+    title: 'Donate to us!',
+    description: 'Do you want to send a help box? Contact us!',
     button: 'Donate',
   },
   becomeVolunteer: {
@@ -92,7 +92,7 @@ export const navBarDataEn = {
   about: 'About us',
   contact: 'Contact',
   button: 'Donate',
-  galery: 'Galery',
+  galery: 'Gallery',
 };
 export const navBarDataEs = {
   home: 'Inicio',
@@ -105,7 +105,7 @@ export const navBarDataEs = {
 export const introductionDataEn = {
   title: 'Hello. We are Donare.',
   description:
-    '​​Donare is a Nonprofit foundation dedicated, for more than four years, to supporting children and families in extreme conditions of poverty in the Dominican Republic and Massachusetts. The purpose of Donare is to supply basic and felt needs, related to nutrition, education and health, and that vulnerable children and families can enjoy more dignified and just living conditions.',
+    '​​Donare is a nonprofit foundation dedicated for more than four years to supporting children and families living in extreme conditions of poverty in the Dominican Republic and Massachusetts. The purpose of Donare is to supply basic needs related to nutrition, education, and health so that vulnerable children and families can enjoy more dignified and just living conditions.',
 };
 
 export const introductionDataEs = {
@@ -119,7 +119,7 @@ export const footerEn = {
     home: 'Home',
     about: 'About',
     contact: 'Contact',
-    galery: 'Galery',
+    galery: 'Gallery',
   },
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
@@ -146,7 +146,7 @@ export const aboutPageEn = {
       story: 'story',
     },
     description:
-      'Donare has been operating for 4 years from my home in Newton, Massachusetts. Once I received a phone call for help from a family in the Dominican Republic which consisted of two minor children, a single mother and a sick grandmother in her 60s. His situation motivated me to make a food box with my self-management of immediate resources through friends and closest neighbors in my community. Which made it possible to help that family.',
+      'Donare has been operating for 4 years from my home in Newton, Massachusetts. Once I received a phone call for help from a family in the Dominican Republic which consisted of two young children, a single mother, and a sick grandmother in her 60’s, I knew I needed to do something. This situation motivated me to make a food donation with the resources I had and the help of friends and closest neighbors in my community. This made it possible to help that family.',
   },
 
   objective: {
@@ -155,7 +155,7 @@ export const aboutPageEn = {
       objective: 'objectives',
     },
     description:
-      'Our goal is to be the bridge for channeling resources, to reach the most disadvantaged countries, communities, and families, this in order that they can have a dignified and fair life through our resources.',
+      'Our goal is to be the bridge for channeling resources to reach the most disadvantaged countries, communities, and families so that they can have a dignified and fair life through our resources.',
   },
 };
 
@@ -182,8 +182,8 @@ export const aboutPageEs = {
 
 export const contactPageEn = {
   title: 'Contact Us',
-  description: 'If you want to communicate with us, please write to us',
-  question: 'Any question for us?',
+  description: 'If you want to communicate with us, please send us a message or call us.',
+  question: 'Any questions for us?',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
@@ -223,7 +223,7 @@ export const contactPageEs = {
 };
 
 export const formEn = {
-  description: 'If you want to communicate with us, please write to us.',
+  description: 'If you want to communicate with us, please send us a message or call us.',
   address: '53-#2 Eddy st. West Newton,Ma. 02465',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
@@ -269,7 +269,7 @@ export const formEs = {
 };
 
 export const galeryPageEn = {
-  title: 'Galery',
+  title: 'Gallery',
 };
 
 export const galeryPageEs = {
