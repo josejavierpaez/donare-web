@@ -56,11 +56,11 @@ export const NavBar = () => {
               </NavLink>
             </div>
 
-            <div className='navs-2'>
+           {/*  <div className='navs-2'>
               <NavLink exact to='#' className='donate-button'>
                 {navBar?.button}
               </NavLink>
-            </div>
+            </div> */}
           </div>
         </nav>
 

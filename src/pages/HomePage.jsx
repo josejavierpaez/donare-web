@@ -10,8 +10,8 @@ import 'swiper/swiper.min.css';
 import SwiperCore, { Navigation } from 'swiper';
 import { carrousel1, carrousel2, carrousel3 } from '../assets';
 import { Introduction } from '../components/Introduction';
-import { circles, pig, gift, volunteer } from '../assets/index';
-import { Link } from 'react-router-dom';
+import { circles, /* pig, gift, */ volunteer } from '../assets/index';
+/* import { Link } from 'react-router-dom'; */
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
@@ -68,7 +68,7 @@ export const HomePage = () => {
         </div>
       </section>
 
-      <section className='donations-container'>
+    {/*   <section className='donations-container'>
         <div className='wrapper'>
           <div className='donations-text'>
             <h2>{homePage?.donation.title}</h2>
@@ -92,7 +92,7 @@ export const HomePage = () => {
             </div>
           </section>
         </div>
-      </section>
+      </section> */}
 
       <section className='volunteer-container'>
         <div className='wrapper'>
