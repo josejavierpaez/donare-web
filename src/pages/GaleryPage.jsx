@@ -17,6 +17,22 @@ import {
   galery12,
   galery13,
   galery14,
+  galery15,
+  galery16,
+  galery17,
+  galery18,
+  galery19,
+  galery20,
+  galery21,
+  galery22,
+  galery23,
+  galery24,
+  galery25,
+  galery26,
+  galery27,
+  galery28,
+  galery29,
+  galery30,
   carrousel2,
   carrousel3,
   photoStory,
@@ -27,6 +43,70 @@ export const GaleryPage = () => {
   const { galeryPage } = useContext(DataContext);
   const [loading, setLoading] = useState(true);
   const imagesGalery = [
+    {
+      image: galery30,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery29,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery28,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery27,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery26,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery25,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery24,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery23,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery22,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery21,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery20,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery19,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery18,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery17,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery16,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery15,
+      alt: 'Galery Image',
+    },
     {
       image: galery14,
       alt: 'Galery Image',
