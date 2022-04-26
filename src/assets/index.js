@@ -36,6 +36,22 @@ import galery11 from './img/galery11.jpeg';
 import galery12 from './img/galery12.jpeg';
 import galery13 from './img/galery13.jpeg';
 import galery14 from './img/galery14.jpeg';
+import galery15 from './img/galery15.jpeg';
+import galery16 from './img/galery16.jpeg';
+import galery17 from './img/galery17.jpeg';
+import galery18 from './img/galery18.jpeg';
+import galery19 from './img/galery19.jpeg';
+import galery20 from './img/galery20.jpeg';
+import galery21 from './img/galery21.jpeg';
+import galery22 from './img/galery22.jpeg';
+import galery23 from './img/galery23.jpeg';
+import galery24 from './img/galery24.jpeg';
+import galery25 from './img/galery25.jpeg';
+import galery26 from './img/galery26.jpeg';
+import galery27 from './img/galery27.jpeg';
+import galery28 from './img/galery28.jpeg';
+import galery29 from './img/galery29.jpeg';
+import galery30 from './img/galery30.jpeg';
 
 export {
   facebookIcon,
@@ -74,5 +90,21 @@ export {
   galery12,
   galery13,
   galery14,
+  galery15,
+  galery16,
+  galery17,
+  galery18,
+  galery19,
+  galery20,
+  galery21,
+  galery22,
+  galery23,
+  galery24,
+  galery25,
+  galery26,
+  galery27,
+  galery28,
+  galery29,
+  galery30,
   loading,
 };
