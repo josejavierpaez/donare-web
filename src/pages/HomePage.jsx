@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 // import Swiper core and required modules
 import SwiperCore, { Navigation } from 'swiper';
-import { carrousel1, carrousel2, carrousel3 } from '../assets';
+import { carrousel1, carrousel2, carrousel3,  } from '../assets';
 import { Introduction } from '../components/Introduction';
 import { circles, /* pig, gift, */ volunteer } from '../assets/index';
 /* import { Link } from 'react-router-dom'; */
@@ -20,6 +20,7 @@ export const HomePage = () => {
   return (
     <>
       <Swiper navigation={true} className='carrousel-container'>
+    
         <SwiperSlide className='swiper-slide'>
           <img src={carrousel1} alt='carrousel' loading='lazy' />
         </SwiperSlide>
@@ -59,16 +60,16 @@ export const HomePage = () => {
             <div className='mision'>
               <h2>{homePage?.values.title}</h2>
               <div className=''>
-              <div>{homePage?.values.description.valueOne}</div>
-              <div>{homePage?.values.description.valueTwo}</div>
-              <div>{homePage?.values.description.valueThree}</div>
+                <div>{homePage?.values.description.valueOne}</div>
+                <div>{homePage?.values.description.valueTwo}</div>
+                <div>{homePage?.values.description.valueThree}</div>
               </div>
             </div>
           </section>
         </div>
       </section>
 
-    {/*   <section className='donations-container'>
+      {/*   <section className='donations-container'>
         <div className='wrapper'>
           <div className='donations-text'>
             <h2>{homePage?.donation.title}</h2>
@@ -107,7 +108,13 @@ export const HomePage = () => {
           </div>
 
           <div className='become-volunteer'>
-            <a target='_blank' rel='noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSecugGvShKQLXLrEouyFuKS674UPa_eHyPLrwWxFdxMyJuOGA/viewform?usp=sf_link'>{homePage?.becomeVolunteer.button}</a>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSecugGvShKQLXLrEouyFuKS674UPa_eHyPLrwWxFdxMyJuOGA/viewform?usp=sf_link'
+            >
+              {homePage?.becomeVolunteer.button}
+            </a>
           </div>
         </div>
       </section>

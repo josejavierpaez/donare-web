@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formspree/react": "^2.2.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@formspree/react": "2.2.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -42,6 +43,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
     "@formspree/cli": "^0.9.6"
   }
 }

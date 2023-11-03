@@ -33,6 +33,7 @@ import {
   galery28,
   galery29,
   galery30,
+  galery31,
   carrousel2,
   carrousel3,
   photoStory,
@@ -43,6 +44,10 @@ export const GaleryPage = () => {
   const { galeryPage } = useContext(DataContext);
   const [loading, setLoading] = useState(true);
   const imagesGalery = [
+    {
+      image: galery31,
+      alt: 'Galery Image',
+    },
     {
       image: galery30,
       alt: 'Galery Image',
