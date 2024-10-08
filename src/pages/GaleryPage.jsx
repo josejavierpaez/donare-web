@@ -8,22 +8,17 @@ import {
   galery3,
   galery4,
   galery5,
-  galery6,
-  galery7,
   galery8,
   galery9,
   galery10,
   galery11,
   galery12,
-  galery13,
   galery14,
   galery15,
   galery16,
-  galery17,
   galery18,
   galery19,
   galery20,
-  galery21,
   galery22,
   galery23,
   galery24,
@@ -33,16 +28,42 @@ import {
   galery28,
   galery29,
   galery30,
+  galery31,
   carrousel2,
-  carrousel3,
+
   photoStory,
   photoObjectives,
+  dlalysLogo,
+
+  borreroLogo,
+  easternBankLogo,
+  caterpillarLogo,
 } from '../assets/index';
 
 export const GaleryPage = () => {
   const { galeryPage } = useContext(DataContext);
   const [loading, setLoading] = useState(true);
   const imagesGalery = [
+    {
+      image: caterpillarLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: easternBankLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: dlalysLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: borreroLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: galery31,
+      alt: 'Galery Image',
+    },
     {
       image: galery30,
       alt: 'Galery Image',
@@ -79,10 +100,10 @@ export const GaleryPage = () => {
       image: galery22,
       alt: 'Galery Image',
     },
-    {
+   /*  {
       image: galery21,
       alt: 'Galery Image',
-    },
+    }, */
     {
       image: galery20,
       alt: 'Galery Image',
@@ -95,10 +116,10 @@ export const GaleryPage = () => {
       image: galery18,
       alt: 'Galery Image',
     },
-    {
+    /* {
       image: galery17,
       alt: 'Galery Image',
-    },
+    }, */
     {
       image: galery16,
       alt: 'Galery Image',
@@ -111,10 +132,10 @@ export const GaleryPage = () => {
       image: galery14,
       alt: 'Galery Image',
     },
-    {
+   /*  {
       image: galery13,
       alt: 'Galery Image',
-    },
+    }, */
     {
       image: galery12,
       alt: 'Galery Image',
@@ -155,22 +176,22 @@ export const GaleryPage = () => {
       image: galery5,
       alt: 'Galery Image',
     },
-    {
+  /*   {
       image: galery6,
       alt: 'Galery Image',
-    },
-    {
+    }, */
+ /*    {
       image: galery7,
       alt: 'Galery Image',
-    },
+    }, */
     {
       image: carrousel2,
       alt: 'Galery Image',
     },
-    {
+  /*   {
       image: carrousel3,
       alt: 'Galery Image',
-    },
+    }, */
     {
       image: photoObjectives,
       alt: 'Galery Image',
