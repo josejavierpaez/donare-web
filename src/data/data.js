@@ -105,13 +105,13 @@ export const navBarDataEs = {
 export const introductionDataEn = {
   title: 'Hello. We are Donare.',
   description:
-    '​​Donare is a nonprofit foundation dedicated for more than four years to supporting children and families living in extreme conditions of poverty in the Dominican Republic and Massachusetts. The purpose of Donare is to supply basic needs related to nutrition, education, and health so that vulnerable children and families can enjoy more dignified and just living conditions.',
+    '​​Donare is a nonprofit foundation dedicated for more than four years to supporting children and families living in extreme conditions of poverty in Massachusetts. The purpose of Donare is to supply basic needs related to nutrition, education, and health so that vulnerable children and families can enjoy more dignified and just living conditions.',
 };
 
 export const introductionDataEs = {
   title: 'Hola. Somos Donare.',
   description:
-    'Donare es una fundación sin ánimo de lucro, dedicada, por más de cuatro años, a apoyar a niños y familias en condiciones extremas de pobreza en la República Dominicana y Massachusetts. Donare tiene como propósito suplir necesidades básicas y sentidas, relacionadas con la nutrición, la educación y la salud, y de que niños y familias en estado de vulnerabilidad puedan disfrutar de condiciones de vida más dignas y justas.',
+    'Donare es una fundación sin ánimo de lucro, dedicada, por más de cuatro años, a apoyar a niños y familias en condiciones extremas de pobreza en Massachusetts. Donare tiene como propósito suplir necesidades básicas y sentidas, relacionadas con la nutrición, la educación y la salud, y de que niños y familias en estado de vulnerabilidad puedan disfrutar de condiciones de vida más dignas y justas.',
 };
 
 export const footerEn = {
@@ -121,7 +121,7 @@ export const footerEn = {
     contact: 'Contact',
     galery: 'Gallery',
   },
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
 };
@@ -133,7 +133,7 @@ export const footerEs = {
     contact: 'Contacto',
     galery: 'Galería',
   },
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
 };
@@ -146,7 +146,7 @@ export const aboutPageEn = {
       story: 'story',
     },
     description:
-      'Donare has been operating for 4 years from my home in Newton, Massachusetts. Once I received a phone call for help from a family in the Dominican Republic which consisted of two young children, a single mother, and a sick grandmother in her 60’s, I knew I needed to do something. This situation motivated me to make a food donation with the resources I had and the help of friends and closest neighbors in my community. This made it possible to help that family.',
+      'Donare has been operating for 4 years from my home in Newton, Massachusetts. Once I received a phone call for help from a family which consisted of two young children, a single mother, and a sick grandmother in her 60’s, I knew I needed to do something. This situation motivated me to make a food donation with the resources I had and the help of friends and closest neighbors in my community. This made it possible to help that family.',
   },
 
   objective: {
@@ -167,7 +167,7 @@ export const aboutPageEs = {
       story: 'historia',
     },
     description:
-      'Donare opera desde hace 4 años desde mi hogar en Newton, Massachusetts. Una vez recibí una llamada telefónica de auxilio de una familia en República Dominicana la cual estaba compuesta por dos niños menores de edad, una madre soltera y una abuela enferma de algunos 60 años de edad. Su situación me motivó a hacer una caja de alimentos con mi autogestión de recursos inmediatos a través de amigos y vecinos más cercanos de mi comunidad. Lo cual hizo posible ayudar a esa familia.',
+      'Donare opera desde hace 4 años desde mi hogar en Newton, Massachusetts. Una vez recibí una llamada telefónica de auxilio de una familia la cual estaba compuesta por dos niños menores de edad, una madre soltera y una abuela enferma de algunos 60 años de edad. Su situación me motivó a hacer una caja de alimentos con mi autogestión de recursos inmediatos a través de amigos y vecinos más cercanos de mi comunidad. Lo cual hizo posible ayudar a esa familia.',
   },
 
   objective: {
@@ -184,7 +184,7 @@ export const contactPageEn = {
   title: 'Contact Us',
   description: 'If you want to communicate with us, please send us a message or call us.',
   question: 'Any questions for us?',
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
   form: {
@@ -205,7 +205,7 @@ export const contactPageEs = {
   title: 'Contáctanos',
   description: 'Si deseas comunicarte con nosotros, escribenos por favor.',
   question: '¿Alguna pregunta para nosotros?',
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
   form: {
@@ -224,7 +224,7 @@ export const contactPageEs = {
 
 export const formEn = {
   description: 'If you want to communicate with us, please send us a message or call us.',
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
   form: {
@@ -247,7 +247,7 @@ export const formEn = {
 
 export const formEs = {
   description: 'Si deseas comunicarte con nosotros, escríbenos por favor.',
-  address: '53-#2 Eddy st. West Newton,Ma. 02465',
+  address: '256 Main St Plympton Ma. 02367',
   number: '(978)-677-8299',
   mail: 'donare@donarefoundation.org',
   form: {

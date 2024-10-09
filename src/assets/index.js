@@ -54,6 +54,10 @@ import galery28 from './img/galery28.jpeg';
 import galery29 from './img/galery29.jpeg';
 import galery30 from './img/galery30.jpeg';
 import galery31 from './img/gallery31.jpg';
+import borreroLogo from './img/borreroLogo.jpeg';
+import dlalysLogo from './img/dlalysLogo.png';
+import easternBankLogo from './img/easternBankLogo.jpeg';
+import caterpillarLogo from './img/caterpillarLogo.png';
 
 export {
   facebookIcon,
@@ -111,4 +115,8 @@ export {
   galery30,
   galery31,
   loading,
+  borreroLogo,
+  dlalysLogo,
+  easternBankLogo,
+  caterpillarLogo,
 };

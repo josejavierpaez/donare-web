@@ -38,12 +38,32 @@ import {
   carrousel3,
   photoStory,
   photoObjectives,
+  borreroLogo,
+  dlalysLogo,
+  easternBankLogo,
+  caterpillarLogo,
 } from '../assets/index';
 
 export const GaleryPage = () => {
   const { galeryPage } = useContext(DataContext);
   const [loading, setLoading] = useState(true);
   const imagesGalery = [
+    {
+      image: caterpillarLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: easternBankLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: dlalysLogo,
+      alt: 'Galery Image',
+    },
+    {
+      image: borreroLogo,
+      alt: 'Galery Image',
+    },
     {
       image: galery31,
       alt: 'Galery Image',
@@ -194,8 +214,8 @@ export const GaleryPage = () => {
   return (
     <>
       {loading && <Loading />}
-      <div className="wrapper galery-title">
-      <h2>{galeryPage?.title}</h2>
+      <div className='wrapper galery-title'>
+        <h2>{galeryPage?.title}</h2>
       </div>
       <div className='wrapper galery'>
         {imagesGalery.map((imageGalery, index) => (
